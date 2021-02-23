@@ -108,7 +108,54 @@ def hour_hand(pen,h):
     pen.bk(20)
     pen.fd(100)
 
+pen.color('yellow')
+pen.penup()
+pen.goto(0,135)
+pen.write("12", align="center", font=("Courier", 20, "normal"))
 
+pen.penup()
+pen.goto(150,-14)
+pen.write("3", align="center", font=("Courier", 20, "normal"))
+
+pen.penup()
+pen.goto(0,-160)
+pen.write("6", align="center", font=("Courier", 20, "normal"))
+
+pen.penup()
+pen.goto(-150,-13)
+pen.write("9", align="center", font=("Courier", 20, "normal"))
+
+pen.penup()
+pen.goto(75,110)
+pen.write("1", align="center", font=("Courier", 20, "normal"))
+
+pen.penup()
+pen.goto(138,57)
+pen.write("2", align="center", font=("Courier", 20, "normal"))
+
+pen.penup()
+pen.goto(136,-85)
+pen.write("4", align="center", font=("Courier", 20, "normal"))
+
+pen.penup()
+pen.goto(80, -135)
+pen.write("5", align="center", font=("Courier", 20, "normal"))
+
+pen.penup()
+pen.goto(-75, -143)
+pen.write("7", align="center", font=("Courier", 20, "normal"))
+
+pen.penup()
+pen.goto(-125, -84)
+pen.write("8", align="center", font=("Courier", 20, "normal"))
+
+pen.penup()
+pen.goto(-82, 116)
+pen.write("11", align="center", font=("Courier", 20, "normal"))
+
+pen.penup()
+pen.goto(-120, 60)
+pen.write("10", align="center", font=("Courier", 20, "normal"))
 
 #def print_num():
 
